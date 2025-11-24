@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbhayCloudGamer Control | Intelligent Cloud Computing Console</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav" aria-label="Primary navigation">
+        <div class="logo">AbhayCloudGamer</div>
+        <ul class="nav__links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="pill ghost" data-theme-toggle>Glow Mode</button>
+      </nav>
+
+      <div class="hero__content">
+        <div class="hero__text">
+          <p class="eyebrow">AI-powered cloud fabric</p>
+          <h1>Design, deploy &amp; monitor multi-cloud workloads effortlessly.</h1>
+          <p class="lead">
+            AbhayCloudGamer Control unifies compute, storage, networking, and security
+            into one immersive experience. Visualize clusters, simulate traffic,
+            and act on insights in seconds.
+          </p>
+          <div class="hero__actions">
+            <a class="pill primary" href="#dashboard">Launch Console</a>
+            <a class="pill secondary" href="#pricing">See Plans</a>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <span class="stat__value" data-stat="uptime">99.998%</span>
+              <span class="stat__label">fleet uptime</span>
+            </div>
+            <div>
+              <span class="stat__value" data-stat="clusters">482</span>
+              <span class="stat__label">clusters observed</span>
+            </div>
+            <div>
+              <span class="stat__value" data-stat="latency">34ms</span>
+              <span class="stat__label">avg. latency</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="panel__header">
+            <span>Global posture</span>
+            <span class="badge live">live</span>
+          </div>
+          <div class="panel__body">
+            <div class="map" aria-hidden="true">
+              <div class="orb orb--one"></div>
+              <div class="orb orb--two"></div>
+              <div class="orb orb--three"></div>
+            </div>
+            <div class="panel__metrics">
+              <div>
+                <span>North America</span>
+                <strong data-region="na">2.3ms</strong>
+              </div>
+              <div>
+                <span>EMEA</span>
+                <strong data-region="eu">7.1ms</strong>
+              </div>
+              <div>
+                <span>APAC</span>
+                <strong data-region="apac">11.4ms</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="services" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Cloud primitives</p>
+          <h2>Compose building blocks into adaptive architectures.</h2>
+          <p class="section__description">
+            Drag-and-drop blueprints, intelligent autoscaling, regulatory guard
+            rails, and threat-aware networking are baked into every workload.
+          </p>
+        </div>
+        <div class="grid services__grid">
+          <article class="card">
+            <h3>Compute Mesh</h3>
+            <p>
+              Deploy heterogeneous compute pools with GPU-aware schedulers and
+              policy-driven scaling.
+            </p>
+            <ul>
+              <li>Workload-aware autoscaling</li>
+              <li>Spot instance arbitration</li>
+              <li>Serverless bursts</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Data Gravity</h3>
+            <p>
+              Tiered storage that predicts locality needs and pre-stages data in
+              high-demand zones.
+            </p>
+            <ul>
+              <li>Zero-copy replication</li>
+              <li>Streaming lakehouses</li>
+              <li>Active-active DR</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>SecureEdge</h3>
+            <p>
+              Wire-to-cloud protection with behavioral firewalls and identity
+              awareness.
+            </p>
+            <ul>
+              <li>Adaptive microsegmentation</li>
+              <li>Policy as code</li>
+              <li>Posture digests</li>
+            </ul>
+          </article>
+          <article class="card highlight">
+            <h3>Observability Atlas</h3>
+            <p>
+              Correlate logs, traces, and metrics in real-time with AI-assisted
+              anomaly scoring.
+            </p>
+            <ul>
+              <li>Signal stitching timelines</li>
+              <li>Root-cause explorers</li>
+              <li>Self-heal runbooks</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--split">
+        <div class="split__text">
+          <p class="eyebrow">Cloud strategy cockpit</p>
+          <h2>Blend private, public, and edge zones under one policy graph.</h2>
+          <p>
+            Visual transformers forecast utilization and sustainability impact
+            across every landing zone. Intelligent recommendations nudge teams
+            toward greener and faster configurations.
+          </p>
+          <div class="list">
+            <div>
+              <strong>Carbon-aware scheduler</strong>
+              <p>Routes jobs to the cleanest energy mix hourly.</p>
+            </div>
+            <div>
+              <strong>Latency optimizer</strong>
+              <p>Continuously rebalances CDNs and edge POPs.</p>
+            </div>
+            <div>
+              <strong>Budget sentry</strong>
+              <p>Predicts spend spikes seven days ahead.</p>
+            </div>
+          </div>
+        </div>
+        <div class="split__panel">
+          <div class="panel__header">
+            <span>Policy stack</span>
+            <span class="badge neutral">v5.3</span>
+          </div>
+          <ul class="policy">
+            <li>
+              <span>Latency budget</span>
+              <strong>&lt; 45ms</strong>
+            </li>
+            <li>
+              <span>Carbon intensity</span>
+              <strong>&lt; 210 gCO₂/kWh</strong>
+            </li>
+            <li>
+              <span>Data residency</span>
+              <strong>Geo-fenced</strong>
+            </li>
+            <li>
+              <span>Threat level</span>
+              <strong>Minimal</strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="dashboard" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Interactive console</p>
+          <h2>Simulate multi-region workloads in real time.</h2>
+          <p class="section__description">
+            Tweak the sliders, switch geographies, and watch the orchestration AI
+            re-route packets and rebalance fleets.
+          </p>
+        </div>
+
+        <div class="dashboard">
+          <div class="dashboard__controls">
+            <label>
+              Select region
+              <select id="regionSelector">
+                <option value="na">North America</option>
+                <option value="eu">Europe</option>
+                <option value="apac">Asia Pacific</option>
+                <option value="latam">Latin America</option>
+              </select>
+            </label>
+            <label>
+              Live traffic (Gbps)
+              <input type="range" id="trafficSlider" min="10" max="180" value="65" />
+            </label>
+            <label>
+              Storage load (PB)
+              <input type="range" id="storageSlider" min="1" max="32" value="12" />
+            </label>
+            <button class="pill primary" id="simulateBtn" type="button">
+              Simulate load shift
+            </button>
+          </div>
+
+          <div class="dashboard__canvas">
+            <div class="canvas__panel">
+              <h3>Region insights</h3>
+              <ul id="insightList" class="insight__list"></ul>
+            </div>
+            <div class="canvas__panel">
+              <h3>Health timeline</h3>
+              <div class="timeline" id="timeline">
+                <span>waiting for simulation...</span>
+              </div>
+            </div>
+            <div class="canvas__panel">
+              <h3>Service heatmap</h3>
+              <div class="heatmap" id="heatmap"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Transparent pricing</p>
+          <h2>Pay for insights, not surprises.</h2>
+          <p class="section__description">
+            Every tier includes full-stack observability, compliance reports, and
+            proactive remediation flows.
+          </p>
+        </div>
+
+        <div class="grid pricing__grid">
+          <article class="card">
+            <h3>Launchpad</h3>
+            <p class="price">$199<span>/mo</span></p>
+            <ul>
+              <li>5 regions</li>
+              <li>10 TB storage telemetry</li>
+              <li>Community support</li>
+            </ul>
+            <button class="pill secondary">Start trial</button>
+          </article>
+          <article class="card highlight">
+            <div class="badge glow">popular</div>
+            <h3>Constellation</h3>
+            <p class="price">$899<span>/mo</span></p>
+            <ul>
+              <li>Global mesh</li>
+              <li>Unlimited observability</li>
+              <li>Dedicated partner</li>
+            </ul>
+            <button class="pill primary">Deploy now</button>
+          </article>
+          <article class="card">
+            <h3>PlanetScale</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Air-gapped regions</li>
+              <li>On-prem fabric</li>
+              <li>Sovereign support</li>
+            </ul>
+            <button class="pill secondary">Book workshop</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="section__header">
+          <p class="eyebrow">Proof from the field</p>
+          <h2>Leaders orchestrate their clouds with AbhayCloudGamer.</h2>
+        </div>
+        <div class="carousel" id="testimonialCarousel">
+          <article class="card">
+            <p>
+              “We cut mitigation time from 47 minutes to 5 thanks to autonomous
+              auto-healing recommendations.”
+            </p>
+            <strong>Chief Reliability Officer · NovaBank</strong>
+          </article>
+          <article class="card">
+            <p>
+              “Policy graph keeps every workload compliant across 14 countries
+              without slowing shipping velocity.”
+            </p>
+            <strong>VP Engineering · Orbit Freight</strong>
+          </article>
+          <article class="card">
+            <p>
+              “AbhayCloudGamer forecasted carbon impact so accurately that we hit our
+              net-zero goal six months early.”
+            </p>
+            <strong>Sustainability Lead · Arcology Labs</strong>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section__header">
+          <p class="eyebrow">Let’s design your control plane</p>
+          <h2>Share priorities and receive a tailored topology report.</h2>
+          <p class="section__description">
+            Our architects respond in under 24 hours with architecture diagrams,
+            cost projections, and security scorecards.
+          </p>
+        </div>
+        <form class="form" id="contactForm">
+          <label>
+            Name
+            <input type="text" name="name" required placeholder="Aarav Sharma" />
+          </label>
+          <label>
+            Work email
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="aarav@organization.com"
+            />
+          </label>
+          <label>
+            Priority workload
+            <select name="workload" required>
+              <option value="">Select one</option>
+              <option value="ai">AI/ML pipelines</option>
+              <option value="edge">Edge &amp; IoT</option>
+              <option value="fintech">Fintech &amp; payments</option>
+              <option value="gaming">Gaming &amp; media</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="3"
+              placeholder="Describe your goals..."
+            ></textarea>
+          </label>
+          <button class="pill primary" type="submit">Request workshop</button>
+          <p class="form__status" id="formStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> AbhayCloudGamer Control Plane</p>
+      <div>
+        <a href="#">Status</a>
+        <a href="#">Security</a>
+        <a href="#">Docs</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
